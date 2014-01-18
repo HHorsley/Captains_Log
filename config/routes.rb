@@ -1,5 +1,7 @@
 CaptainsLog::Application.routes.draw do
-  get "landing_pages/home"
+  get "landing_pages/home" 
+  get "landing_pages/about"
+  get "landing_pages/signup"
 
   root :to => "landing_pages#home"
   # The priority is based upon order of creation:

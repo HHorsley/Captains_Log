@@ -1,2 +1,47 @@
-<h1>LandingPages#home</h1>
-<p>Find me in app/views/landing_pages/home.html.erb</p>
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<body>
+	<div class="top_box">
+			<img src='<%=asset_path "home_banner_4generations.jpg" %>'>
+		<div id="top_box_text">
+			<h1>Captain's Log</h1>
+			<h2>Your legacy to pass to future generations.</h2>
+		</div>
+	</div>
+	<a href="#details">
+		<div id="top_center_image">
+				<img src='<%=asset_path "looking on laptop.jpg" %>'>
+		</div>
+	</a>
+	<div class="container bottom_box">
+		<div class="row">
+			<div class="left col-md-6">
+				<div id="details">
+					<div id="details_one">
+						<p>Imagine if you could watch a video of your grandfather from his college days, talking about his first date with your grandma. <span>Imagine if you could watch a video of your 5-year-old self talking about what you want to be when you grow up. Imagine if you could give your 21-year-old daughter your log from when you had your first boss.<span></p>
+					</div>
+					<div id="details_two">
+						<p><span>This isn't social media.</span> A Captain's Log is a private library of your thoughts on video to revisit and pass along to family in the future. Less painstaking than journaling. The richest, most honest recording of the life you lead — that will give future generations a greater appreciation for the journey of family that came before them.</p>
+					</div>
+				</div>
+			</div>
+			<div class="center_line">
+			</div>
+			<div class="right col-md-6">
+				<div id="signup">
+					<h1>Start your Captain's Log</h1>
+					<button class="btn-success btn-lg" style="width:300px; height:60px;">NEW CAPTAIN'S LOG</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div id="footer"> 
+			<p>© 2014 Captain's Log&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to "About", landing_pages_about_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:a-friend-or-family@example.com">Share</a></p>
+	</footer>
+</body>
+
+
