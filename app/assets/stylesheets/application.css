@@ -63,7 +63,7 @@
 	width: 65px;
 	height: 65px;
 	margin: -235px auto;
-	opacity: 0.6;
+	opacity: 0.3;
 }
 
 #top_arrow > img:hover {
@@ -176,3 +176,30 @@ footer {
 	font-family: Gotham-Black;
 	color: #43994D;
 }
+
+.btn-success {
+	border-style:outset !important;
+	border-width: 3.5px !important;
+}
+
+#mc_embed_signup {
+	background-color: #fff;
+	outline: 80px solid #fff;
+	margin-top: -100px;
+	width: 400px !important;
+	left: 50%;
+	margin-left: -200px;
+	position: absolute;
+	display: block;
+	padding: 0px 0px;
+}
+
+#about_box {
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	background-color: #fff;
+	position: absolute;
+	border: 40px solid #fff;
+	margin-top: -150px;
+	}

@@ -45,15 +45,15 @@
 			<div class="right col-md-6">
 				<div id="signup">
 					<h1>Start your Captain's Log</h1>
-					<button class="btn-success btn-lg" style="width:300px; height:60px;">NEW CAPTAIN'S LOG</button>
-					<p id="signup_para">Stop being lazy. It's harder than a selfie. But easier than a journal. And better than forgetting the journey. Try it.</p>
+					<%= link_to "NEW CAPTIAN'S LOG", landing_pages_signup_path, :style => "width:300px; padding: 20px 0px; id:signup_btn", :class => "btn btn-success btn-lg" %>
+					<p id="signup_para"><span style="color:#000">Stop being lazy.</span> It's harder than a selfie. But easier than a journal. And better than forgetting the journey. Try it.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<footer>
 		<div id="footer"> 
-			<p>© 2014 Captain's Log&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to "About", landing_pages_about_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:a-friend-or-family@example.com">Share</a></p>
+			<p>© 2014 <%= link_to "Captain's Log", landing_pages_home_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to "About", landing_pages_about_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:a friend or family">Share</a></p>
 	</footer>
 </body>
 
