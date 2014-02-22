@@ -212,14 +212,13 @@ footer {
 
 #mc_embed_signup {
 	background-color: #fff;
-	outline: 80px solid #fff;
 	margin-top: -100px;
-	width: 400px !important;
+	width: 600px !important;
 	left: 50%;
-	margin-left: -200px;
+	margin-left: -300px;
 	position: absolute;
 	display: block;
-	padding: 0px 0px;
+	padding: 50px 50px;
 }
 
 #about_box {
