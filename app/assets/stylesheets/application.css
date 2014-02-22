@@ -84,10 +84,10 @@
 #top_arrow > img {
 	position: absolute;
 	display: block;
-	width: 65px;
-	height: 65px;
-	margin: -235px auto;
-	opacity: 0.3;
+	width: 75px;
+	height: 75px;
+	margin: 145px auto;
+	opacity: 0.4;
 }
 
 #top_arrow > img:hover {
@@ -99,7 +99,7 @@
 	display: block;
 	left: 50%;
 	margin-left: -2px;
-	margin-top: 140px;
+	margin-top: 130px;
 	outline: 1.5px solid rgba(184, 141, 95, 0.72);
 	width: 3px;
 	height: 400px;
@@ -137,7 +137,7 @@
 }
 
 #details{
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-right: 8%;
 	margin-left: 8%;
 	color: #474747;
