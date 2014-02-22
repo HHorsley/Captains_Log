@@ -78,16 +78,20 @@
 }
 
 #top_arrow {
-	width: 70px;
+	width: 95px;
 	margin: 0px auto;
 }
 #top_arrow > img {
 	position: absolute;
 	display: block;
-	width: 75px;
-	height: 75px;
+	width: 95px;
+	height: 95px;
 	margin: 145px auto;
 	opacity: 0.4;
+}
+
+#top_arrow a {
+	-webkit-transition: all 1s ease;
 }
 
 #top_arrow > img:hover {
